@@ -43,20 +43,17 @@ public class EmployeeInfo{
 	 * So you probably need to send 2 arguments.
 	 * 
 	 */
-	public static int calculateEmployeBonus(){
-		int total=0;
-		return total;
-	}
-	
+	public static int calculateEmployeBonus() {
+		int total = 0;
+		return total;}}
+
 	/*
 	 * This methods should calculate Employee Pension based on salary and numbers of years with the company.
 	 * Then it will return the total pension. So you need to implement the logic.
 	 * Hints: pension will be 5% of the salary for 1 year, 10% for 2 years with the company and so on.
 	 * So you probably need to send 2 arguments.
-	 * 
-	 */
-	public static int calculateEmployePension(){
+	 *
+	 *public static int calculateEmployePension(){
 		int total=0;
 		return total;
-	}
-}
+	*/
