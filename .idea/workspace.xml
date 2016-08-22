@@ -2,22 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8d1bc24-ed69-4266-9dc9-bb9dd2a5152d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.classpath" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/soren.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.project" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/oop/design/EmployeeSpecs.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CoreNDSExamJuly2016/oop/design/Employee.class" afterPath="$PROJECT_DIR$/out/production/CoreNDSExamJuly2016/oop/design/Employee.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CoreNDSExamJuly2016/students/data/processing/ProcessStudentInfo.class" afterPath="$PROJECT_DIR$/out/production/CoreNDSExamJuly2016/students/data/processing/ProcessStudentInfo.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CoreNDSExamJuly2016/xml/parser/Student.class" afterPath="$PROJECT_DIR$/out/production/CoreNDSExamJuly2016/xml/parser/Student.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/oop/design/CnnEmployee.java" afterPath="$PROJECT_DIR$/src/oop/design/CnnEmployee.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/oop/design/Employee.java" afterPath="$PROJECT_DIR$/src/oop/design/Employee.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/oop/design/EmployeeInfo.java" afterPath="$PROJECT_DIR$/src/oop/design/EmployeeInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/students/data/processing/ProcessStudentInfo.java" afterPath="$PROJECT_DIR$/src/students/data/processing/ProcessStudentInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/xml/parser/Student.java" afterPath="$PROJECT_DIR$/src/xml/parser/Student.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/xml/parser/qtp.xml" afterPath="$PROJECT_DIR$/src/xml/parser/qtp.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/xml/parser/selenium.xml" afterPath="$PROJECT_DIR$/src/xml/parser/selenium.xml" />
     </list>
     <ignored path="CoreNDSExamJuly2016.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -186,6 +174,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="soren &lt;sorenessen@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -713,6 +706,14 @@
       <option name="presentableId" value="Default" />
       <updated>1471175258533</updated>
     </task>
+    <task id="LOCAL-00001" summary="resubmission&#10;+added employee data and student data">
+      <created>1471895721496</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1471895721496</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -786,6 +787,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="resubmission&#10;+added employee data and student data" />
+    <option name="LAST_COMMIT_MESSAGE" value="resubmission&#10;+added employee data and student data" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
