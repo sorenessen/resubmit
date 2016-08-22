@@ -1,7 +1,6 @@
 package oop.design;
 
-import java.util.Date;
-import java.util.GregorianCalendar;
+import java.util.Scanner;
 
 public class CnnEmployee {
 
@@ -16,72 +15,25 @@ public class CnnEmployee {
 	 * Use any databases[MongoDB, Oracle, MySql] to store data and retrieve data.
 	 *
 	 **/
-	public void employeedetails( String n; double s; int year; int month; int day ){
-		name = n;
-		double s;
-		salary = s;
-		GregorianCalendar calendar = new GregorianCalendar(year, month - 1, day);
-		hireDay = calendar.getTime();
-	}
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.println("please enter the employee id 3 times until it works");
+		int id = input.nextInt();
+		String name=input.nextLine();
+		EmployeeInfo employeesinfo = new EmployeeInfo();
 
-	public String getName()
-	{
-		return name;
-	}
-
-	public double getSalary()
-	{
-		return salary;
-	}
-
-	public Date getHireDay()
-	{
-		return hireDay;
-	}
-
-	public void raiseSalary(double byPercent)
-	{
-		double raise = salary * byPercent / 100;
-		salary += raise;
-	}
-
-	private String name;
-	private double salary;
-	private Date hireDay;
-
-
-	public static double main(String[] args) {
-
-
-		public static double calculateEmployePension(double monthySalary,int years){
-			double yearlySalary = monthySalary*12;
-			double total=0;
-			if(years==1)
-			{
-				total = yearlySalary*(.05)*years;
-			}
-		}
-
-
-      	double yearlySalary;
-		double total;
-		if(years==2)
-		{
-			total = yearlySalary*(.10)*years;
-		}
-		else if(years==3)
-		{
-			total = yearlySalary*(.25)*years;
-		}
-		else if(years==4)
-		{
-			total = yearlySalary*(.40)*years;
-		}
-		else  // By Default 1 percent // it may continue n years
-		{
-			total = yearlySalary*(.65);
-		}
-		return total;
+		employeesinfo.employeeName("Soren Essen");
+		System.out.println(employeesinfo.getName());
+		employeesinfo.assignDepartment(id);
+		employeesinfo.City(id);
+		employeesinfo.DOB("07/29/1982");
+		employeesinfo.employeeName(employeesinfo.getDOB());
+		employeesinfo.employeeAcademic(id);
+		employeesinfo.Commission(id);
+		employeesinfo.calculateSalary(id);
+		System.out.print("Date Hired: ");
+		employeesinfo.hireDate(id);
+		System.out.println("Employees Bonus:" +EmployeeInfo.calculateEmployeBonus(70000,10));
+		System.out.println("Employees yearly pension: "+EmployeeInfo.calculateEmployePension(50,100000));
 	}
 }
-
